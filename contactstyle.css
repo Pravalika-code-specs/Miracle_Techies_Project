@@ -1,0 +1,71 @@
+/* styles.css */
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    text-align: center;
+    flex: 1; /* Allows header to take available space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navigation styles */
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #333; /* Dark background for the link */
+}
+
+nav a:hover {
+    background-color: #555; /* Slightly lighter background on hover */
+}
+
+/* Main content styles */
+.center {
+    text-align: center;
+    padding: 20px;
+    flex: 2; /* Allows content to take available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.center h1 {
+    font-size: 2.5em;
+    color: #4CAF50; /* Match header background */
+}
+
+.center p {
+    font-size: 1.2em;
+    color: #666; /* Dark gray text */
+}
+
+/* Footer styles (optional) */
+footer {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}

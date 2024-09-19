@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #45a049;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.left, .right {
+    width: 25%; /* Equal space on both sides */
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.left a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.center {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    width: 50%; /* Takes up 50% of the width */
+}
+
+/* Main Section Styling */
+.content-section {
+    display: flex;
+    height: 80vh; /* Take up most of the vertical space */
+    margin: 20px;
+}
+
+.left-content {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #45a049; 
+}
+
+.right-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Link styling */
+.details-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #a0a045;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.details-link:hover {
+    background-color: #45a049;
+}
